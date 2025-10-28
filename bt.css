@@ -1,0 +1,58 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("15081228-c16d-4ac9-9503-025adff70d7a.png"); /* ảnh bạn đã gửi */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+
+.place {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  max-width: 700px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s;
+}
+
+.place:hover {
+  transform: scale(1.02);
+}
+
+
+.place img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+
+footer {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  font-size: 0.9em;
+}
